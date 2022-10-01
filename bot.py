@@ -187,7 +187,7 @@ async def strt(client, message: Message):
                         url="https://t.me/Otaku_network",
                     )
                     ]])
-    img = "https://www.akibagamers.it/wp-content/uploads/2019/03/zombie-land-saga-tae-yamada.jpg"
+    img = "https://nntheblog.b-cdn.net/wp-content/uploads/2022/06/Sumi-Sakurasawa.jpg"
     txt = "Hello! **My name is Sumi Sakurasawa** Am a girl who can send posts like posts in **@Otaku_networkt**\nJust Send /new or reply /new to a message that forwarded From the chat you want to send a post\n\n**Note**: You must add me as an `admin` in channel or group"
     await app.send_photo(user_id,photo=img,caption=txt,reply_markup=link)
 
