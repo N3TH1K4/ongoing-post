@@ -5,6 +5,6 @@ WORKDIR /ongoing-post
 COPY requirements.txt /ongoing-post/
 RUN pip3 install -r requirements.txt
 
-COPY . /app/
+COPY . /ongoing-post/
 
 CMD python3 bot.py
