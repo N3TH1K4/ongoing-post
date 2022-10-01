@@ -155,8 +155,8 @@ Powered By: **@Otaku_Network**
                         url=f"{onlink}",
                     )
                     ]])
-                await app.send_photo(ongc,photo=title_img,caption=main_reply,reply_markup=downon)
-                await app.send_sticker(main_id,"CAACAgUAAxkBAAETDC9jN6noVjESqLaWbzMIyoUJDmoloAACRgADqZrmFrGJK8tGuhUQKgQ")
+                await app.send_photo(ongc,photo=title_img,caption=main_reply,reply_markup=down)
+                await app.send_sticker(ongc,"CAACAgUAAxkBAAETDC9jN6noVjESqLaWbzMIyoUJDmoloAACRgADqZrmFrGJK8tGuhUQKgQ")
                 await app.send_message(user_id,"**Sucessfully Sent The Post to the Ongoing!**")
             else:
                 await app.send_message(user_id,"**You Are Not From @Otaku_network So you cant do this**")
